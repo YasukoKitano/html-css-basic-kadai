@@ -1,0 +1,22 @@
+.parent {
+  /*幅をpxで指定*/
+  width: 300px;
+  /*幅を%で指定*/
+  width: 100%;
+  /*初期値auto幅いっぱい。width指定なしで幅いっぱい*/
+  width: auto;
+  background-color: yellow;    
+}
+.child {
+  /*幅をpxで指定*/
+  width: 150px;
+  /*幅を%で指定*/
+  width: 50%;
+  /*初期値auto幅いっぱい。width指定なしで幅いっぱい*/
+  width: auto;
+  width: 50%;
+  min-width: 300px;
+  width: 80%;
+  max-width: 600px;
+  background-color: orange;       
+}
