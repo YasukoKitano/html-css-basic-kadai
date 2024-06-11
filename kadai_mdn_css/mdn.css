@@ -1,0 +1,9 @@
+.rotate{
+    position:absolute;
+    left: 50px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: skyblue;
+    transform: rotate(20deg);
+  }
