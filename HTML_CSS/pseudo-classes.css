@@ -1,0 +1,10 @@
+.parent {
+  background-color: whitesmoke;
+}
+
+a:hover {
+  color: orange;
+}
+a:active {
+  color: red;
+}
