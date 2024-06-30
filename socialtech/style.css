@@ -482,11 +482,9 @@ p {
    スマートフォン用のスタイル
   =====================*/
   @media screen and (max-width: 767px) {
-    /* PC用ナビゲーション非表示 */
     #nav-pc {
       display: none;
-    }
-  
+    }    
     /* ハンバーガーメニュー */
     #menu-sp {
       display: block;
@@ -495,7 +493,9 @@ p {
       padding: 0;
       border: none;
     }
+  }
   
+
     /* スマホ用ナビゲーションの表示切替*/
     /* 初期状態、レイアウトと非表示設定 */
     #nav-sp {
